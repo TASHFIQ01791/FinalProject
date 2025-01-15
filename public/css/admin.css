@@ -1,0 +1,51 @@
+/* Custom CSS for Admin Panel */
+
+body {
+    padding-top: 15px;
+}
+
+#wrapper {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+#sidebar-wrapper {
+    width: 250px;
+    background: #343a40;
+    padding: 20px;
+}
+
+.sidebar-nav {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-nav li {
+    margin: 10px 0;
+}
+
+.sidebar-nav li a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sidebar-nav li a.active,
+.sidebar-nav li a:hover {
+    background: #007bff;
+}
+
+#page-content-wrapper {
+    flex: 1;
+    padding: 20px;
+}
+
+.card-img-top {
+    object-fit: cover; /* Ensures images cover the space without stretching */
+    width: 100%;
+    height: 200px; /* Adjust height as needed */
+}
+
